@@ -19,6 +19,7 @@ Run the Server:
 
 Once everything is set up, run the server with npm start or node server.js.
 Ensure the backend is running without any errors.
+
 ========================================================================
 
 Frontend Setup:
