@@ -1,0 +1,112 @@
+
+.markdown-editor-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+  }
+  
+  .textarea-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  
+  .textarea-header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+  
+  .markdown-textarea {
+    width: 90%;
+    height: 80vh;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+  }
+  
+  .output-container {
+    margin-top: 43px;
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 80vh;
+    overflow-y: auto;
+  }
+
+  .textarea-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .clear-button {
+    padding: 8px 16px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .clear-button:hover {
+    background-color: #d32f2f;
+  }
+
+
+.output-container {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 80vh;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Styling headings */
+  .output-container h1 {
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+  
+  .output-container h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  
+  /* Styling lists */
+  .output-container ul,
+  .output-container ol {
+    margin-bottom: 12px;
+    padding-left: 20px;
+  }
+  
+  /* Styling links */
+  .output-container a {
+    color: #0366d6;
+    text-decoration: none;
+    border-bottom: 1px solid #0366d6;
+  }
+  
+  .output-container a:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Styling code blocks */
+  .output-container pre {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+  }
+  
